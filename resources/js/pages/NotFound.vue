@@ -1,12 +1,12 @@
 <template>
     <div class="container">
-        <router-view></router-view>
+        <h1>Page not found</h1>
     </div>
 </template>
 
 <script>
 export default {
-    name: 'MyMain'
+
 }
 </script>
 
