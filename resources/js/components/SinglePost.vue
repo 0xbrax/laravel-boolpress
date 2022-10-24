@@ -8,6 +8,7 @@
                 Tag: <span v-if="post.tags.length == 0">-</span>
                 <span v-else v-for="(tag, tagIndex) in post.tags" :key="tagIndex">{{tag.name + '; '}}</span>
             </p>
+            <router-link :to="{name: 'single-post-page', params: {slug: post.slug}}" class="btn btn-primary">Read more</router-link>
         </div>
     </div>
 </template>

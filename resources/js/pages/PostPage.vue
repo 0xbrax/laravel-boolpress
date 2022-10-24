@@ -47,7 +47,7 @@ export default {
     methods: {
         getPosts(page) {
             this.isLoading = true;
-            axios.get('/Boolean/laravel-api/public/api/posts', {
+            axios.get('/Boolean/laravel-boolpress/public/api/posts', {
                 params: {
                     page: page
                 }
